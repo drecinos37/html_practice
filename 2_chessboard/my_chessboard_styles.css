@@ -18,3 +18,43 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+
+
+<style>
+html {
+}
+
+
+body {
+  background-image: url("grey.png");
+  color: rgb(255, 153, 0);
+  font-size: 300%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+
+
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+}
+
+
+.square_dark_square {
+
+
+
+  background:-webkit-gradient(linear, left top, right bottom, color-stop(0%,#009999), color-stop(100%,#1d7373));
+}
+
+.board {
+
+  border: 5px solid teal;
+  margin: 35px auto;
+
+}
+
+
+
+</style>
